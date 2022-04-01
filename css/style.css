@@ -14,5 +14,40 @@ body{
 }
 
 #main-header{
+    background-color: coral;
+    color: white;
+}
+
+#navbar{
+    background-color: beige;
+    color: black;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: green;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 16px;
+
+}
+
+#showcase{
+    background-image: url('../images/showcase.jpg');
+    background-position: center right;
+    height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#showcase h1{
     
 }
