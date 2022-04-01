@@ -43,11 +43,50 @@ body{
 #showcase{
     background-image: url('../images/showcase.jpg');
     background-position: center right;
-    height: 300px;
+    min-height: 300px;
     margin-bottom: 30px;
     text-align: center;
 }
 
 #showcase h1{
-    
+    color: blue;
+    font-size: 30px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background: grey;
+    color: aliceblue;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#main-footer{
+    background: darkgray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media(max-width:600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
 }
